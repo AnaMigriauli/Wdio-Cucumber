@@ -1,0 +1,12 @@
+{
+  "name": "Cucumber",
+  "scripts": {
+    "wdio": "wdio run wdio.conf.js",
+    "test:login": "wdio run wdio.conf.js --cucumberOpts.tagExpression='@login'"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^9.12.1",
+    "@wdio/local-runner": "^9.12.1",
+    "@wdio/spec-reporter": "^9.11.0"
+  }
+}
